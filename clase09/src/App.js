@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Banner from'./component/Banner.js'
+//import Banner from'./component/Banner.js'
 import Navbar from './component/Navbar'
-import Button from './component/Button'
+//import Button from './component/Button'
 import Video from './component/Video'
-import Imagen from './component/imagen';
+import Imagen from './component/Imagen'
+import Audio from './component/Audio';
 
 function App() {
   return (
@@ -12,17 +12,18 @@ function App() {
     <div className="App">
       <Navbar />
 
-      <div>
-        <Video />
-      </div>
 
-
+      <h5>Video src remoto</h5>
+      <Video />
+   
       
-      <Button />
 
+      <h5>Foto local</h5>
       <Imagen />
       
-
+      <h5>Audio local</h5>
+      <Audio />
+      
       
     </div>
 
